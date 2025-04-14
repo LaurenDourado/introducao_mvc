@@ -9,9 +9,9 @@
 #### ESQUEMA MVC
 usuários(navegador) -> requisição -> controler -> model -> controler -> view -> usuários
 
-|  CAMADA     |   FUNÇÃO                                    |   EXEMPLO                         | EXEMPLO             |
+|  CAMADA     |   FUNÇÃO                                    |   EXEMPLO                         |     PHP             |
 |:-----------:|:-------------------------------------------:|:---------------------------------:|:-------------------:|
-|   MODEL     |         Gerencia os dados e regras          |      Dados alunos e professores   | aluno php           |
+|   MODEL     |         Gerencia os dados e regras          |      Dados alunos e professores   | aluno.php           |
 |   VIEW      | Responsável pela interface: o que o user vê |           Exibição da página      | alunosView.php      |
 | CONTROLER   |         Intermedia o model e a view         | Recebe o pedido para mostrar algo | alunoController.php |
 
